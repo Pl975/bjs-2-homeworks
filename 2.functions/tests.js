@@ -56,7 +56,7 @@ describe("Домашнее задание к занятию 2 Функции", (
         expect(averageEvenElementsWorker()).toEqual(0);
       });
       it("[1, 2, 3, 4, 5, 6, 7, 8, 9] => [2, 4, 6, 8] => 5", () => {
-        expect(averageEvenElementsWorker(1, 2, 3, 4, 5, 6, 7, 8, 9)).toEqual({5.00});
+        expect(averageEvenElementsWorker(1, 2, 3, 4, 5, 6, 7, 8, 9)).toEqual(5.00);
       });
             
       it("[15, 97, 85, 64, 67, 10, 69, 40, 15, 35] => [64, 10, 40] => 38", () => {
