@@ -58,8 +58,9 @@ describe("Домашнее задание к занятию 2 Функции", (
       it("[1, 2, 3, 4, 5, 6, 7, 8, 9] => [2, 4, 6, 8] => 5", () => {
         expect(averageEvenElementsWorker(1, 2, 3, 4, 5, 6, 7, 8, 9)).toEqual(5);
       });
+            
       it("[15, 97, 85, 64, 67, 10, 69, 40, 15, 35] => [64, 10, 40] => 38", () => {
-        expect(averageEvenElementsWorker(15, 97, 85, 64, 67, 10, 69, 40, 15, 35)).toEqual(38);
+        expect(averageEvenElementsWorker(15, 97, 85, 64, 67, 10, 69, 40, 15, 35)).toEqual(38.00);
       });
     });
   });
@@ -83,7 +84,7 @@ describe("Домашнее задание к занятию 2 Функции", (
     it("Насадка среднего значения чётных элементов", () => {
       const arr = [[10, 10, 11, 20, 10], [67, 10, 2, 39, 88], [72, 75, 51, 87, 43], [30, 41, 55, 96, 62]];
       // 12.5, 33.333, 72, 62.666
-      expect(makeWork(arr, averageEvenElementsWorker)).toEqual(72);
+      expect(makeWork(arr, averageEvenElementsWorker)).toEqual(72.00);
     });
   });
 });
